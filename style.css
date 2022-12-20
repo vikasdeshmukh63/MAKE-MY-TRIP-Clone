@@ -717,6 +717,7 @@ body {
   font-size: 42px;
   font-weight: 700;
   text-align: left !important;
+  color: #393939;
 }
 
 .download-uppar-row p {
@@ -886,6 +887,7 @@ body {
   font-size: 42px;
   font-weight: 700;
   margin-right: 320px;
+  color: #393939;
 }
 
 .handpick-img {
@@ -961,31 +963,6 @@ body {
   margin-top: 10px;
 }
 
-.wonders-section {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 55px;
-  background-color: white;
-  flex-direction: column;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.342);
-  margin-bottom: 30PX;
-}
-
-.wonders-header {
-  margin-bottom: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.wonders-header h1 {
-  font-size: 42px;
-  font-weight: 700;
-  margin-right: 211px;
-}
-
 /* WONDERS OF INDIA SECTION */
 
 .wonders-section {
@@ -1014,6 +991,7 @@ body {
   font-weight: 700;
   margin-right: 143px;
   margin-left: 37px;
+  color: #393939;
 }
 
 /* MISCELLANEOUS SECTION */
@@ -1083,7 +1061,6 @@ body {
 }
 
 .footer-sub{
-  max-width: 1200px;
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -12,7 +12,7 @@ window.onscroll = function () {
   myFunction();
 };
 function myFunction() {
-  if (document.documentElement.scrollTop > 50) {
+  if (document.documentElement.scrollTop > 50 || screen.width <= 1180) {
     mainNavbarEle.style.display = "flex";
   } else {
     mainNavbarEle.style.display = "none";
