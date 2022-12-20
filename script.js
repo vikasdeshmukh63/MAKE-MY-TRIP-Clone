@@ -102,13 +102,12 @@ function darkModeToggler() {
   });
   footerMainEle.classList.toggle("b-footer-main");
 
-  function buttonStyle(){
+  function buttonStyle() {
     if (modeText[1].innerText == "dark_mode") {
       modeText.forEach((text) => {
         text.innerHTML = `<span class="material-symbols-outlined">light_mode</span>`;
       });
-    }
-    else if (modeText[1].innerText == "light_mode") {
+    } else if (modeText[1].innerText == "light_mode") {
       modeText.forEach((text) => {
         text.innerHTML = `<span class="material-symbols-outlined">dark_mode</span>`;
       });

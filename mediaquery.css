@@ -137,8 +137,11 @@
   .mode {
     margin-left: 10px;
   }
+  .section-3{
+    height: 550px;
+  }
   .main-container{
-    top:110px;
+    top:120px;
     width: 78%;
     padding-top: 25px;
   }
@@ -146,9 +149,52 @@
     display: none;
   }
   .search-button{
-    top:436px;
+    top:444px;
   }
   .trips{
     margin-bottom:30px;
+  }
+  .text-1{
+    font-size: 13px;
+  }
+  .text-2{
+    font-size: 25px;
+  }
+  .text-b{
+    font-size: 25px;
+  }
+  .text-s{
+    font-size: 16px;
+  }
+  .where-to-go {
+    width: 78%;
+  }
+  .offers{
+    width: 78%;
+  }
+  .download-app{
+    width: 78%;
+    padding: 32px;
+  }
+  .handpick-collection {
+    width: 78%;
+  }
+  .handpick-img {
+    gap: 29px;
+  }
+  .wonders-section{
+    width: 78%;
+  }
+  .wonders-header h1{
+    margin-left: 0;
+  }
+  .miscellaneous-section {
+    width: 78%;
+  }
+  .about-sub-container {
+    width: 78%;
+  }
+  .footer-sub {
+    width: 90%;
   }
 }

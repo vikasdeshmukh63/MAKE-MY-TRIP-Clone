@@ -108,6 +108,7 @@
 
 .b-handpick-collection{
     background-color: black;
+    box-shadow: 0 0 10px rgb(92, 92, 92);
 }
 
 .b-handpick-header{
@@ -116,6 +117,7 @@
 
 .b-wonders-section{
     background-color: black;
+    box-shadow: 0 0 10px rgb(92, 92, 92);
 }
 
 .b-wonders-header{
