@@ -2,36 +2,47 @@
   .nav-a {
     width: 70%;
   }
+
   .nav-b {
     width: 60%;
   }
+
   .main-container {
     width: 70%;
   }
+
   .where-to-go {
     width: 65%;
   }
+
   .offers {
     width: 70%;
   }
+
   .download-app {
     width: 70%;
   }
+
   .handpick-collection {
     width: 70%;
   }
+
   .handpick-img {
     gap: 15px;
   }
+
   .wonders-section {
     width: 70%;
   }
+
   .miscellaneous-section {
     width: 70%;
   }
+
   .about-sub-container {
     width: 70%;
   }
+
   .footer-sub {
     width: 72%;
   }
@@ -42,80 +53,102 @@
     width: 420px;
     height: 184;
   }
+
   .offer-header h1 {
     font-size: 38px;
     margin: 0;
   }
+
   .offer-nav-arrows {
     margin: 0;
   }
+
   .offer-class {
     margin: 0 30px;
   }
+
   .offer-class span {
     margin: 0 5px;
     font-size: 13px;
   }
+
   .download-uppar-row h1 {
     font-size: 38px;
   }
+
   .download-uppar-row p {
     font-size: 19px;
   }
+
   .input-image img {
     width: 16px;
   }
+
   .input-code {
     font-size: 12px;
   }
+
   .input-no input {
     font-size: 12px;
   }
+
   .input-sub button {
     height: 30px;
     padding: 0 9px;
     font-size: 12px;
   }
+
   .enter-no {
     height: 30px;
   }
+
   .handpick-collection {
     padding-bottom: 0;
   }
+
   .handpick-header h1 {
     font-size: 38px;
     margin-right: 267px;
   }
+
   .handpick-img {
     gap: 41px;
     grid-template-columns: 151px 151px 151px 151px 151px;
   }
+
   .handpick-img img {
     width: 151px;
     height: 83%;
   }
+
   .image-slider {
     width: 151px;
     height: 54%;
     bottom: 40px;
     padding: 40px 12px 12px 12px;
   }
+
   .image-slider p {
     font-size: 13px;
   }
+
   .image-slider span {
     font-size: 12px;
     padding: 5px;
   }
+
   .img-card::before {
     width: calc(100% - 21px);
   }
+
   .img-card::after {
     width: calc(100% - 44px);
   }
+
   .wonders-section {
     padding-bottom: 0;
   }
+
   .wonders-header h1 {
     font-size: 38px;
     margin-right: 107px;
@@ -123,77 +156,214 @@
   }
 }
 
-@media only screen and (max-width: 1180px) {
-  .nav-a {
+@media only screen and (max-width: 1200px) {
+  .nav-a-subbox-1 {
     display: none;
   }
+
+  .nav-a-subbox-2 {
+    display: none;
+  }
+
+  .text-1 {
+    font-size: 12px;
+  }
+
+  .info-box-1a {
+    padding-left: 10px;
+  }
+
+  .info-box-1b {
+    padding-left: 10px;
+  }
+
+  .info-box-2 {
+    padding-left: 10px;
+  }
+
+  .info-box-3 {
+    padding-left: 10px;
+  }
+
+  .text-2 {
+    font-size: 25px;
+  }
+
+  .text-b {
+    font-size: 25px;
+  }
+
+  .text-s {
+    font-size: 15px;
+  }
+
+  .where-to-go span {
+    padding: 10px 24px;
+  }
+
+  .offer-card {
+    width: 375px;
+  }
+
+  .download-app {
+    padding: 25px;
+  }
+
+  .offer-class {
+    margin: 0 16px;
+  }
+
+  .offer-class span {
+    font-size: 11px;
+  }
+
+  .offercard-text h1 {
+    font-size: 14px;
+  }
+
+  .offercard-text p {
+    font-size: 12px;
+  }
+
+  .search-button {
+    top: 458px;
+  }
+
+  .apple-andro img {
+    width: 100px;
+  }
+
+  .download-links {
+    padding-left: 42px;
+  }
+
+  .download-uppar-row p {
+    font-size: 17px;
+  }
+
+  .login-box h3 {
+    margin: 0;
+  }
+
+  .logo-black img {
+    margin-right: 37px;
+  }
+
+  .handpick-header h1 {
+    margin-right: 180px;
+  }
+
+  .handpick-img {
+    gap: 7px;
+  }
+  .image-slider{
+    bottom: 39px;
+  }
+  .wonders-header h1 {
+    margin-right: 26px;
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 1180px) {
+  .nav-a {
+    width: 78%;
+}
+
   .logo-black img {
     margin-right: 20px;
     margin-left: 10px;
   }
+
   .login-box {
     margin-left: 10px;
   }
+  .login-box h3{
+    margin: 0 50px 0 10px;
+  }
+
   .mode {
     margin-left: 10px;
   }
-  .section-3{
+
+  .section-3 {
     height: 550px;
   }
-  .main-container{
-    top:120px;
+
+  .main-container {
+    top: 75px;
     width: 78%;
     padding-top: 25px;
   }
-  .nav-b{
+
+  .nav-b {
     display: none;
   }
-  .search-button{
-    top:444px;
+
+  .search-button {
+    top: 444px;
   }
-  .trips{
-    margin-bottom:30px;
+
+  .trips {
+    margin-bottom: 30px;
   }
-  .text-1{
+
+  .text-1 {
     font-size: 13px;
   }
-  .text-2{
+
+  .text-2 {
     font-size: 25px;
   }
-  .text-b{
+
+  .text-b {
     font-size: 25px;
   }
-  .text-s{
+
+  .text-s {
     font-size: 16px;
   }
+
   .where-to-go {
     width: 78%;
   }
-  .offers{
+
+  .offers {
     width: 78%;
   }
-  .download-app{
+
+  .download-app {
     width: 78%;
     padding: 32px;
   }
+
   .handpick-collection {
     width: 78%;
   }
+.handpick-header h1{
+  margin-right: 247px;
+}
   .handpick-img {
-    gap: 29px;
+    gap: 26px;
   }
-  .wonders-section{
+
+  .wonders-section {
     width: 78%;
   }
-  .wonders-header h1{
-    margin-left: 0;
+
+  .wonders-header h1 {
+    margin-left: 0px;
+    margin-right: 99px;
   }
+
   .miscellaneous-section {
     width: 78%;
   }
+
   .about-sub-container {
     width: 78%;
   }
+
   .footer-sub {
     width: 90%;
   }
