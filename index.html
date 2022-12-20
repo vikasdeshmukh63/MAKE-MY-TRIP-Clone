@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <!-- FONT-AWESOME LINK -->
+  <script src="https://kit.fontawesome.com/2982ffb018.js" crossorigin="anonymous"></script>
+  <!-- GOOGLE ICONS -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <!-- CSS LINK -->
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./animation.css" />
+  <link rel="stylesheet" href="./pseudo .css" />
+  <link rel="stylesheet" href="./mediaquery.css" />
+  <link rel="stylesheet" href="./darkmode.css">
+  <!-- JAVASCRIPT LINK -->
+  <script src="./script.js" defer></script>
+  <title>Make My Trip</title>
+</head>
+
+<body>
+  <!-- SECTION-1(RESPONSIVE NAVBAR) -->
+  <section class="sidebar">
+    <a href="#"><span>Login or Create Account</span></a>
+    <a href="#" class="dark-mode"><span>Mode</span></a>
+    <a href="#"><span>Flights</span></a>
+    <a href="#"><span>Hotels</span></a>
+    <a href="#"><span>Homestays</span></a>
+    <a href="#"><span>Holiday Packages</span></a>
+    <a href="#"><span>Trains</span></a>
+    <a href="#"><span>Buses</span></a>
+    <a href="#"><span>Cabs</span></a>
+    <a href="#"><span>Forex</span></a>
+    <a href="#"><span>Charter Flights</span></a>
+    <a href="#"><span>Activities</span></a>
+  </section>
+  <!-- SECTION-2(MAIN NAVBAR) -->
+  <nav class="main-navbar">
+    <div class="logo-black">
+      <img src="https://i.ibb.co/1J9hcBr/logo-black.png" alt="logo-black">
+    </div>
+    <span class="nav-cat">
+      <a href="#">
+        <i class="fa-solid fa-plane fa-xl cat-icon"></i>
+        <h3 class="cat-text">Flights</h3>
+      </a>
+    </span>
+    <span class="nav-cat">
+      <a href="#">
+        <i class="fa-solid fa-hotel fa-xl cat-icon"></i>
+        <h3 class="cat-text">Hotels</h3>
+      </a>
+    </span>
+    <span class="nav-cat">
+      <a href="#">
+        <i class="fa-solid fa-house-flag fa-xl cat-icon"></i>
+        <h3 class="cat-text">Homestays</h3>
+      </a>
+    </span>
+    <span class="nav-cat">
+      <a href="#">
+        <i class="fa-solid fa-person-snowboarding fa-xl cat-icon"></i>
+        <h3 class="cat-text">Holiday Packages</h3>
+      </a>
+    </span>
+    <span class="nav-cat">
+      <a href="#">
+        <i class="fa-solid fa-train-tram fa-xl cat-icon"></i>
+        <h3 class="cat-text">Trains</h3>
+      </a>
+    </span>
+    <span class="nav-cat">
+      <a href="#">
+        <i class="fa-solid fa-bus fa-xl cat-icon"></i>
+        <h3 class="cat-text">Buses</h3>
+      </a>
+    </span>
+    <span class="nav-cat">
+      <a href="#">
+        <i class="fa-solid fa-car-side fa-xl cat-icon"></i>
+        <h3 class="cat-text">Cabs</h3>
+      </a>
+    </span>
+    <span class="nav-cat">
+      <a href="#">
+        <i class="fa-solid fa-money-check-dollar fa-xl cat-icon"></i>
+        <h3 class="cat-text">Forex</h3>
+      </a>
+    </span>
+    <span class="nav-cat">
+      <a href="#">
+        <i class="fa-solid fa-paper-plane fa-xl cat-icon"></i>
+        <h3 class="cat-text">Charter Flights</h3>
+      </a>
+    </span>
+    <span class="nav-cat">
+      <a href="#">
+        <i class="fa-solid fa-person-running fa-xl cat-icon"></i>
+        <h3 class="cat-text">Activities</h3>
+      </a>
+    </span>
+    <div class="login-box">
+      <div>
+        <img class="nav-simg" src="https://i.ibb.co/nCfTt2H/loginlogo.png" alt="" />
+      </div>
+      <h3>Login or Create Account</h3>
+      <span class="material-symbols-outlined dropdown">expand_more</span>
+    </div>
+    <div class="mode dark-mode dark-text">
+      <span class="material-symbols-outlined dark">dark_mode</span>
+    </div>
+    <div class="hamburger">
+      <div class="lines"></div>
+      <div class="lines"></div>
+      <div class="lines"></div>
+    </div>
+  </nav>
+  <!-- TRANSPARENT NAVBAR -->
+  <section class="section-3">
+    <nav class="nav-a">
+      <div class="logo-box">
+        <img class="logo-w" src="https://i.ibb.co/dQGDfrp/mmt-Logo-White.png" alt="logo" />
+      </div>
+      <div class="nav-a-box-1">
+        <div class="nav-a-subbox-1">
+          <div>
+            <img class="purple-flower" src="https://i.ibb.co/r0GX3qj/offer.png" alt="" /><span class="per">%</span>
+          </div>
+          <div>
+            <h3>Super Offers</h3>
+            <p>Explore Great deals & offers</p>
+          </div>
+        </div>
+        <div class="nav-a-subbox-2">
+          <div>
+            <img class="nav-simg" src="https://i.ibb.co/VwVrYCb/my-trips.png" alt="" />
+          </div>
+          <div>
+            <h3>My Trips</h3>
+            <p>Manage your bookings</p>
+          </div>
+        </div>
+        <div class="login-box">
+          <div>
+            <img class="nav-simg" src="https://i.ibb.co/nCfTt2H/loginlogo.png" alt="" />
+          </div>
+          <h3>Login or Create Account</h3>
+          <span class="material-symbols-outlined dropdown">expand_more</span>
+        </div>
+        <div class="mode dark-mode dark-text">
+          <span class="material-symbols-outlined">dark_mode</span>
+        </div>
+      </div>
+    </nav>
+    <!-- FLOATING NAVBAR -->
+    <div class="nav-b">
+      <span class="nav-cat">
+        <a href="#">
+          <i class="fa-solid fa-plane fa-xl cat-icon"></i>
+          <h3 class="cat-text">Flights</h3>
+        </a>
+      </span>
+      <span class="nav-cat">
+        <a href="#">
+          <i class="fa-solid fa-hotel fa-xl cat-icon"></i>
+          <h3 class="cat-text">Hotels</h3>
+        </a>
+      </span>
+      <span class="nav-cat">
+        <a href="#">
+          <i class="fa-solid fa-house-flag fa-xl cat-icon"></i>
+          <h3 class="cat-text">Homestays</h3>
+        </a>
+      </span>
+      <span class="nav-cat">
+        <a href="#">
+          <i class="fa-solid fa-person-snowboarding fa-xl cat-icon"></i>
+          <h3 class="cat-text">Holiday Packages</h3>
+        </a>
+      </span>
+      <span class="nav-cat">
+        <a href="#">
+          <i class="fa-solid fa-train-tram fa-xl cat-icon"></i>
+          <h3 class="cat-text">Trains</h3>
+        </a>
+      </span>
+      <span class="nav-cat">
+        <a href="#">
+          <i class="fa-solid fa-bus fa-xl cat-icon"></i>
+          <h3 class="cat-text">Buses</h3>
+        </a>
+      </span>
+      <span class="nav-cat">
+        <a href="#">
+          <i class="fa-solid fa-car-side fa-xl cat-icon"></i>
+          <h3 class="cat-text">Cabs</h3>
+        </a>
+      </span>
+      <span class="nav-cat">
+        <a href="#">
+          <i class="fa-solid fa-money-check-dollar fa-xl cat-icon"></i>
+          <h3 class="cat-text">Forex</h3>
+        </a>
+      </span>
+      <span class="nav-cat">
+        <a href="#">
+          <i class="fa-solid fa-paper-plane fa-xl cat-icon"></i>
+          <h3 class="cat-text">Charter Flights</h3>
+        </a>
+      </span>
+      <span class="nav-cat">
+        <a href="#">
+          <i class="fa-solid fa-person-running fa-xl cat-icon"></i>
+          <h3 class="cat-text">Activities</h3>
+        </a>
+      </span>
+    </div>
+    <!-- TICKET BOOKING INTERFACE -->
+    <div class="main-container">
+      <div class="trips">
+        <div class="ticket-type">
+          <span class="active-option"><input type="radio" name="trip" />ONEWAY</span>
+          <span class="active-option"><input type="radio" name="trip" />ROUND TRIP</span>
+          <span class="active-option"><input type="radio" name="trip" />MULTI CITY</span>
+        </div>
+        <div class="ticket-text">
+          <span>Book International and Domestic Flights</span>
+        </div>
+      </div>
+      <div class="ticket-info">
+        <div class="top">
+          <span class="info-box-1a">
+            <h3 class="text-1">FROM</h3>
+            <h1 class="text-2">Delhi</h1>
+            <p class="text-3">DEL, Delhi Airport India</p>
+          </span>
+          <span class="info-box-1b">
+            <h3 class="text-1">TO</h3>
+            <h1 class="text-2">Bengaluru</h1>
+            <p class="text-3">
+              BLR, Bengaluru International Airport India...
+            </p>
+          </span>
+        </div>
+        <div class="bottom">
+          <span class="info-box-2">
+            <h3 class="text-1">DEPARTURE</h3>
+            <h1>
+              <span class="text-b">5</span><span class="text-s"> Dec'22</span>
+            </h1>
+            <p class="text-3">Monday</p>
+          </span>
+          <span class="info-box-2">
+            <h3 class="text-1">RETURN</h3>
+            <h1>
+              <span class="text-b">6</span><span class="text-s"> Dec'22</span>
+            </h1>
+            <p class="text-3">Tuesday</p>
+          </span>
+          <span class="info-box-3">
+            <h3 class="text-1">TRAVELLERS & CLASS</h3>
+            <h1>
+              <span class="text-b">1</span><span class="text-s"> Traveller</span>
+            </h1>
+            <p class="text-3">Economy/Premium Economy</p>
+            <p class="text-4">Group Booking Available!</p>
+          </span>
+        </div>
+      </div>
+      <!-- FARE TYPE -->
+      <div class="fare">
+        <div class="fare-container">
+          <h3>Select A Fare Type:</h3>
+          <div class="fare-cat">
+            <span class="first-fare"><input type="radio" name="fare" id=""/>Regular Fares</span>
+            <span class="middle-fare"><input type="radio" name="fare" id="" />Armed Forces
+              Fare</span>
+            <span class="middle-fare"><input type="radio" name="fare" id="" />Student Fares</span>
+            <span class="middle-fare"><input type="radio" name="fare" id="" />Senior Citizen
+              Fares</span>
+            <span class="middle-fare"><input type="radio" name="fare" id="" />Doctors & Nurses
+              Fares</span>
+            <span class="last-fare"><input type="radio" name="fare" id="" />Double seat
+              Fares</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SEARCH BUTTON -->
+    <button class="search-button">SEARCH</button>
+    <!-- EXPLORE MORE SECTION -->
+    <div class="exp">
+      <img src="https://i.ibb.co/7WdLTZr/dt-tert-down-Arrow.png" alt="dt-tert-down-Arrow" />
+      <h3>Explore More</h3>
+      <img src="https://i.ibb.co/7WdLTZr/dt-tert-down-Arrow.png" alt="dt-tert-down-Arrow" />
+    </div>
+  </section>
+  <!-- WHERE TO GO SECTION -->
+  <section class="where-to-go">
+    <span class="where-section-1">
+      <i class="fa-solid fa-earth-europe fa-xl"></i>
+      <h3>Where2Go</h3>
+    </span>
+    <span class="where-section-2">
+      <i class="fa-solid fa-sack-dollar fa-xl"></i>
+      <h3>Trip Money</h3>
+    </span>
+    <span class="where-section-3">
+      <i class="fa-solid fa-cloud fa-xl"></i>
+      <h3>Explore International Flights</h3>
+    </span>
+    <span class="where-section-4">
+      <i class="fa-solid fa-users-line fa-xl"></i>
+      <h3>MICE</h3>
+    </span>
+    <span class="where-section-5">
+      <i class="fa-solid fa-gift fa-xl"></i>
+      <h3>Gift Cards</h3>
+    </span>
+  </section>
+  <!-- OFFER SECTION -->
+  <section class="offers">
+    <div class="offer-header">
+      <h1>Offers</h1>
+      <div class="offer-class">
+        <span class="offer-first-span">ALL OFFERS</span>
+        <span>BANK OFFERS</span>
+        <span>FLIGHTS</span>
+        <span>HOTELS</span>
+        <span>HOLIDAYS</span>
+        <span>TRAIN</span>
+        <span>CABS</span>
+        <span class="offer-last-span">OTHERS</span>
+      </div>
+      <div class="offer-nav-arrows">
+        <div class="offers-back-arrow">
+          <span class="material-symbols-outlined"> arrow_back_ios </span>
+        </div>
+        <div class="offers-next-arrow">
+          <span class="material-symbols-outlined"> arrow_forward_ios </span>
+        </div>
+      </div>
+    </div>
+    <div class="offer-body">
+      <div class="offer-upper-row">
+        <!-- OFFER CARD -->
+        <div class="offer-card">
+          <div class="offer-card-head">
+            <div class="offer-img">
+              <img src="https://i.ibb.co/4sxRTWM/116-X116-IF-CFAR-26092022.webp" alt="116-X116-IF-CFAR-26092022">
+            </div>
+            <div class="offercard-text">
+              <span>intl flights</span>
+              <h1>INTRODUCED:'Zero Cancellation'!</h1>
+              <hr />
+              <p>Valid on ICICI Bank Credit Cards,Credit Cards EMI & Debit Cards</p>
+            </div>
+          </div>
+          <div class="offer-card-footer">
+            <p>T&C's Apply</p>
+            <h3>BOOK NOW</h3>
+          </div>
+        </div>
+        <!-- OFFER CARD -->
+        <div class="offer-card">
+          <div class="offer-card-head">
+            <div class="offer-img">
+              <img src="https://i.ibb.co/z7dY6T0/spicejet-116x116-05092022.webp" alt="spicejet-116x116-05092022">
+            </div>
+            <div class="offercard-text">
+              <span>dom flights</span>
+              <h1>FASTEN YOUR SEAT BELTS: New Flights by SpiceJet</h1>
+              <hr />
+              <p>NOW flying between Chennai & Bangkok</p>
+            </div>
+          </div>
+          <div class="offer-card-footer">
+            <p>T&C's Apply</p>
+            <h3>BOOK NOW</h3>
+          </div>
+        </div>
+      </div>
+      <div class="offer-lower-row">
+        <!-- OFFER CARD -->
+        <div class="offer-card">
+          <div class="offer-card-head">
+            <div class="offer-img">
+              <img src="https://i.ibb.co/3Tg7NbB/116x116-Affordability-DT-2x-12102011.webp"
+                alt="116x116-Affordability-DT-2x-12102011">
+            </div>
+            <div class="offercard-text">
+              <span>general</span>
+              <h1>Now Make All Your Trips Flexible & Affordable:</h1>
+              <hr />
+              <p>Book With No Payment, Avail No-Cost EMI & grab amazing bank offers.</p>
+            </div>
+          </div>
+          <div class="offer-card-footer">
+            <p>T&C's Apply</p>
+            <h3>BOOK NOW</h3>
+          </div>
+        </div>
+        <!-- OFFER CARD -->
+        <div class="offer-card">
+          <div class="offer-card-head">
+            <div class="offer-img">
+              <img src="https://i.ibb.co/Wsh8YkB/indigo-116x116-25112022.webp" alt="indigo-116x116-25112022">
+            </div>
+            <div class="offercard-text">
+              <span>dom flights</span>
+              <h1>FASTEN YOUR SEAT BELTS: New Flights by IndiGo</h1>
+              <hr />
+              <p>NOW flying from Delhi & Kolkata to Itanagar @upto ₹2000 OFF*!</p>
+            </div>
+          </div>
+          <div class="offer-card-footer">
+            <p>T&C's Apply</p>
+            <h3>BOOK NOW</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- DOWNLOAD APP SECTION -->
+  <section class="download-app">
+    <div class="download-uppar-row">
+      <h1>Download App Now</h1>
+      <p>Get the MakeMyTrip mobile App and Save More!</p>
+    </div>
+    <div class="download-lower-row">
+      <div class="input-section">
+        <div class="download-img">
+          <img src="https://i.ibb.co/VV9DWfy/download-img.png" alt="download-img">
+        </div>
+        <div class="download-text">
+          <p>Use code <span>WELCOMEMMT</span> and get upto <span>Rs 1200</span> off on your first domestic flight
+            booking</p>
+          <div class="input-box">
+            <div class="enter-no">
+              <div class="input-image">
+                <img src="https://i.ibb.co/ZmSsnLY/indiafg.png" alt="indiafg">
+              </div>
+              <div class="input-code">
+                +91
+              </div>
+              <div class="input-no">
+                <input type="number" name="phone-no" id="phone-no" placeholder="Enter Mobile Number">
+              </div>
+            </div>
+            <div class="input-sub">
+              <button>GET APP LINK</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="download-links">
+        <h3>MORE WAYS TO GET THE APP</h3>
+        <div class="other-links">
+          <div class="apple-andro">
+            <img src="https://i.ibb.co/0B11qt6/apple-downlaod.png" alt="apple-downlaod">
+            <img src="https://i.ibb.co/wc7S5k2/android-download.png" alt="android-download">
+          </div>
+          <div class="qr-code">
+            <img src="https://i.ibb.co/ZV6K9j6/qr-code.png" alt="qr-code">
+            <p>Scan QR</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- HANDPICK COLLECTION SECTION -->
+  <section class="handpick-collection">
+    <div class="handpick-header">
+      <h1>Handpicked Collection for You</h1>
+      <div class="offer-nav-arrows">
+        <div class="offers-back-arrow">
+          <span class="material-symbols-outlined"> arrow_back_ios </span>
+        </div>
+        <div class="offers-next-arrow">
+          <span class="material-symbols-outlined"> arrow_forward_ios </span>
+        </div>
+      </div>
+    </div>
+    <div class="handpick-img">
+      <!-- IMAGE CARD -->
+      <div class="img-card">
+        <div class="image-slider">
+          <span>Top11</span>
+          <p>Romantic Destinations</p>
+        </div>
+        <img src="https://i.ibb.co/cy6SHQQ/m-romantic44-p-540-417.jpg" alt="m-romantic44-p-540-417">
+      </div>
+      <!-- IMAGE CARD -->
+      <div class="img-card">
+        <div class="image-slider">
+          <span>Top11</span>
+          <p>Honeymoon Destinations</p>
+        </div>
+        <img src="https://i.ibb.co/jycBsrs/m-honeymoon11-p-540-417.jpg" alt="m-honeymoon11-p-540-417">
+      </div>
+      <!-- IMAGE CARD -->
+      <div class="img-card">
+        <div class="image-slider">
+          <span>Top11</span>
+          <p>International Destinations</p>
+        </div>
+        <img src="https://i.ibb.co/yXCg68P/m-curated-collection-international-destination-july-p-403-403.jpg"
+          alt="m-curated-collection-international-destination-july-p-403-403">
+      </div>
+      <!-- IMAGE CARD -->
+      <div class="img-card">
+        <div class="image-slider">
+          <span>Top11</span>
+          <p>Weekend Getaways</p>
+        </div>
+        <img src="https://i.ibb.co/GM2rdbq/m-weekend44-p-540-417.jpg" alt="m-weekend44-p-540-417">
+      </div>
+      <!-- IMAGE CARD -->
+      <div class="img-card">
+        <div class="image-slider">
+          <span>Top11</span>
+          <p>Hill Stations</p>
+        </div>
+        <img src="https://i.ibb.co/fqg7sCm/m-hill-stations11-p-540-417.jpg" alt="m-hill-stations11-p-540-417">
+      </div>
+
+    </div>
+  </section>
+  <!-- WONDERS OF INDIA -->
+  <section class="wonders-section">
+    <div class="wonders-header">
+      <h1>Unlock Lesser-Known Wonders of India</h1>
+      <div class="offer-nav-arrows">
+        <div class="offers-back-arrow">
+          <span class="material-symbols-outlined"> arrow_back_ios </span>
+        </div>
+        <div class="offers-next-arrow">
+          <span class="material-symbols-outlined"> arrow_forward_ios </span>
+        </div>
+      </div>
+    </div>
+    <div class="handpick-img">
+      <!-- IMAGE CARD -->
+      <div class="img-card">
+        <div class="image-slider">
+          <p>Hidden Gem along Maharashtra's Coast</p>
+        </div>
+        <img src="https://i.ibb.co/hCh9SNx/m-destination-yercaud-landscape-l-400-640.jpg" alt="m-destination-yercaud-landscape-l-400-640">
+      </div>
+      <!-- IMAGE CARD -->
+      <div class="img-card">
+        <div class="image-slider">
+          <p>Picturesque Gateway to Himalayas</p>
+        </div>
+        <img src="https://i.ibb.co/4KJfgsX/m-Dooars-l-457-685.jpg" alt="m-Dooars-l-457-685">
+      </div>
+      <!-- IMAGE CARD -->
+      <div class="img-card">
+        <div class="image-slider">
+          <p>Quaint Little Hill Station in Gujarat</p>
+        </div>
+        <img src="https://i.ibb.co/hMFhrGV/m-destination-saputara-landscape-l-400-640.jpg" alt="m-destination-saputara-landscape-l-400-640">
+      </div>
+      <!-- IMAGE CARD -->
+      <div class="img-card">
+        <div class="image-slider">
+          <p>A pleasant summer retreat and a snowy winter wonderland!</p>
+        </div>
+        <img src="https://i.ibb.co/9YZYKXn/m-Destination-Dhanaulti-l-534-801.jpg" alt="m-Destination-Dhanaulti-l-534-801">
+      </div>
+      <!-- IMAGE CARD -->
+      <div class="img-card">
+        <div class="image-slider">
+          <p>Seaside Resort Village in West Bengal</p>
+        </div>
+        <img src="https://i.ibb.co/3T92VMx/m-destination-mandarmoni-landscape-l-400-640.jpg" alt="m-destination-mandarmoni-landscape-l-400-640">
+      </div>
+    </div>
+  </section>
+  <!-- MISCELLANEOUS SECTION -->
+  <section class="miscellaneous-section">
+    <!-- PRODUCT OFFERING -->
+    <div class="miscellaneous">
+      <h4>product offering</h4>
+      <p>Flights, International Flights, Charter Flights, Hotels, International Hotels, Homestays and Villas,
+        Activities, Holidays In India, International Holidays, Book Hotels From UAE, myBiz for Corporate Travel, Book
+        Online Cabs, Book Bus Tickets, Book Train Tickets, Cheap Tickets to India, Book Flights From US, Book Flights
+        From UAE, Trip Planner, Gift Cards, Trip Money, Trip Ideas, Travel Blog, PNR Status, MakeMyTrip Advertising
+        Solutions, One Way Cab</p>
+    </div>
+    <!-- MAKEMYTRIP -->
+    <div class="miscellaneous">
+      <h4>makemytrip</h4>
+      <p>About Us, Investor Relations, Careers, MMT Foundation, CSR Policy, myPartner - Travel Agent Portal, Foreign
+        Exchange, List your hotel, Partners- Redbus, Partners- Goibibo, Advertise with Us</p>
+    </div>
+    <!-- ABOUT THE SITE -->
+    <div class="miscellaneous">
+      <h4>about the site</h4>
+      <p>Customer Support, Payment Security, Privacy Policy, User Agreement, Terms of Service, More Offices, Make A
+        Payment, Work From Home</p>
+    </div>
+    <!-- CORPORATE TRAVEL -->
+    <div class="miscellaneous">
+      <h4>Corporate travel</h4>
+      <p>Corporate Travel, Corporate Hotel Booking, Corporate Flight Booking, Business Travel for SME, GST Invoice for
+        International flights, Business Travel Solutions, GST Invoice for Bus, Corporate Bus booking, myBiz - Best
+        Business Travel Platform, GST Invoice for Flights, GST Invoice for Corporate Travel, GST Invoice for Hotels,
+        myBiz for Small Business, Free cancellation on International Flights</p>
+    </div>
+  </section>
+  <!-- ABOUT SITE SECTION -->
+  <section class="about-main-container">
+    <div class="about-sub-container">
+      <div class="about-box">
+        <h2>Why MakeMyTrip?</h2>
+        <p>Established in 2000, MakeMyTrip has since positioned itself as one of the leading companies, providing great offers, competitive airfares, exclusive discounts, and a seamless online booking experience to many of its customers. The experience of booking your flight tickets, hotel stay, and holiday package through our desktop site or mobile app can be done with complete ease and no hassles at all. We also deliver amazing offers, such as Instant Discounts, Fare Calendar, MyRewardsProgram, MyWallet, and many more while updating them from time to time to better suit our customers’ evolving needs and demands.</p>
+      </div>
+      <div class="about-box">
+        <h2>Booking Flights with MakeMyTrip</h2>
+        <p>At MakeMyTrip, you can find the best of deals and cheap air tickets to any place you want by booking your tickets on our website or app. Being India’s leading website for hotel, flight, and holiday bookings, MakeMyTrip helps you book flight tickets that are affordable and customized to your convenience. With customer satisfaction being our ultimate goal, we also have a 24/7 dedicated helpline to cater to our customer’s queries and concerns. Serving over 5 million happy customers, we at MakeMyTrip are glad to fulfill the dreams of folks who need a quick and easy means to find air tickets. You can get a hold of the cheapest flight of your choice today while also enjoying the other available options for your travel needs with us.</p>
+      </div>
+      <div class="about-box">
+        <h2>Domestic Flights with MakeMyTrip</h2>
+        <p>MakeMyTrip is India's leading player for flight bookings. With the cheapest fare guarantee, experience great value at the lowest price. Instant notifications ensure current flight status, instant fare drops, amazing discounts, instant refunds and rebook options, price comparisons and many more interesting features.</p>
+      </div>
+    </div>
+  </section>
+  <!-- FOOTER -->
+  <section class="footer-main">
+    <div class="footer-sub">
+      <div class="social">
+        <a href="https://twitter.com/VikasDeshmukh1"><i class="fa-brands fa-square-facebook fa-2xl"></i></a>
+        <a href="https://www.instagram.com/im_vikasdeshmukh/"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+        <a href="https://www.facebook.com/vikas.deshmukh.35380/"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+      </div>
+      <div class="copyright">
+        <div class= "copy1">&#169 2022 MAKEMYTRIP PVT.LTD.</div>
+        <div class="copy2">country <span>India USA UAE</span></div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+.nav-cat a:active {
+    color: #008cff;
+    border-bottom: 3px solid #008cff;
+}
+
+.active-option:hover {
+    background-color: #e7e7e7;
+    color: black;
+}
+
+.info-box-1a:hover {
+    background-color: #eaf5ff;
+}
+.info-box-1b:hover {
+    background-color: #eaf5ff;
+}
+
+.info-box-2:hover {
+    background-color: #eaf5ff;
+}
+
+.info-box-3:hover {
+    background-color: #eaf5ff;
+}
+
+.fare-cat span:hover {
+    background-color: #eaf5ff;
+}
+
+.offer-class span:hover {
+    color: #008cff;
+    border-bottom: 3px solid #008cff;
+}

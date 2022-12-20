@@ -1,0 +1,149 @@
+.b-body{
+    background-color: rgb(56, 55, 55);
+}
+
+.b-sidebar{
+   background-color: black;
+}
+
+.b-navbar{
+    background-color: black;
+    
+}
+
+.b-mode{
+    background-color: black;
+    color: white;
+}
+
+.b-nav-b{
+    background-color: black;
+    box-shadow: 0 0 10px rgb(92, 92, 92);
+}
+
+.b-main-container{
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 10px rgb(92, 92, 92);
+}
+
+.b-text-1{
+    color: white;
+}
+
+.b-text-3{
+    color: white;
+}
+
+.b-text-s{
+    color: white;
+}
+
+.b-info-box:hover {
+    background-color: #1872c7;
+}
+
+.b-fare-cat{
+    background-color: gray;
+}
+
+.b-fare-cat span{
+    color: white;
+}
+
+.b-fare-cat span:hover{
+    background-color:#1872c7;
+}
+
+.b-where-to-go{
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 10px rgb(92, 92, 92);
+}
+
+.b-offer{
+    background-color: black;
+    box-shadow: 0 0 10px rgb(92, 92, 92);
+}
+
+.b-offer-header h1{
+ color: white;
+}
+
+.b-offer-class{
+    border-bottom: 1px solid white;
+}
+.b-offer-class span{
+    color: white;
+}
+
+.b-offer-card{
+    color: white;
+    box-shadow: 0 0 10px rgb(92, 92, 92);
+}
+
+.b-download-app{
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 10px rgb(92, 92, 92);
+}
+
+.b-download-app p{
+    color: white;
+}
+
+.b-enter-no{
+    border: 1px solid white;
+    border-right: none;
+}
+
+.b-input-no input{
+    background-color: black;
+    color: white;
+}
+
+.b-input-sub button{
+    background-color: black;
+}
+
+.b-handpick-collection{
+    background-color: black;
+}
+
+.b-handpick-header{
+    color: white;
+}
+
+.b-wonders-section{
+    background-color: black;
+}
+
+.b-wonders-header{
+    color: white;
+}
+
+.b-miscellaneous h4{
+    color: white;
+}
+.b-miscellaneous p{
+    color: white;
+}
+
+.b-about-box h2{
+   color: white;
+}
+.b-about-box p{
+   color: white;
+}
+
+.b-about-main-container{
+    background-color: grey;
+}
+
+.b-footer-main{
+    background-color: black;
+}
+
+.b-main-navbar{
+    background-color: black;
+}
