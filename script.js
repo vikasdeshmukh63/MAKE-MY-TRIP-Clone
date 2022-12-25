@@ -119,3 +119,28 @@ function darkModeToggler() {
 modeButton.forEach((button) => {
   button.addEventListener("click", darkModeToggler);
 });
+
+
+// FOR POPUP
+
+const popupBlock = document.querySelector(".popup-container");
+const cancelButton = document.querySelector(".cancelpopup ");
+const popupImage = document.querySelector(".popup-container img");
+
+window.addEventListener("load",()=>{
+  setTimeout(loadCoupoun,5000);
+})
+
+
+function loadCoupoun(){
+  popupBlock.style.display = "flex";
+  setTimeout(()=>{
+    cancelButton.style.display = "block";
+  },3000);
+}
+
+cancelButton.addEventListener("click",closeCoupoun);
+
+function closeCoupoun(){
+  popupBlock.style.display = "none";
+}
