@@ -120,27 +120,94 @@ modeButton.forEach((button) => {
   button.addEventListener("click", darkModeToggler);
 });
 
-
 // FOR POPUP
 
 const popupBlock = document.querySelector(".popup-container");
 const cancelButton = document.querySelector(".cancelpopup ");
 const popupImage = document.querySelector(".popup-container img");
 
-window.addEventListener("load",()=>{
-  setTimeout(loadCoupoun,5000);
-})
+window.addEventListener("load", () => {
+  setTimeout(loadCoupoun, 5000);
+});
 
-
-function loadCoupoun(){
+function loadCoupoun() {
   popupBlock.style.display = "flex";
-  setTimeout(()=>{
+  setTimeout(() => {
     cancelButton.style.display = "block";
-  },3000);
+  }, 3000);
 }
 
-cancelButton.addEventListener("click",closeCoupoun);
+cancelButton.addEventListener("click", closeCoupoun);
 
-function closeCoupoun(){
+function closeCoupoun() {
   popupBlock.style.display = "none";
 }
+
+// FOR GEOLOCATION
+const cityName = document.querySelector(".cityname");
+const currentDateEle = document.querySelector(".current-date");
+const temperature = document.querySelector(".temp");
+const minMaxTemp = document.querySelector(".minmax-temp");
+const weatherIcon = document.querySelector(".weather-icon");
+const weatherDescription = document.querySelector(".temp-des");
+const pressureValue = document.querySelector(".pre-value");
+const windSpeed = document.querySelector(".wind-value");
+
+const currentDate = new Date();
+let date = currentDate.getDate();
+let month = currentDate.getMonth() + 1;
+let year = currentDate.getFullYear();
+
+if (month < 10) {
+  month = "0" + month;
+}
+
+if (date < 10) {
+  date = "0" + date;
+}
+
+function WeatherUpdate() {
+  currentDateEle.innerText = `${date}/${month}/${year}`;
+
+  navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
+
+  function successCallback(data) {
+    let lat = data.coords.latitude;
+    let long = data.coords.longitude;
+
+    let url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&units=metric&appid=2d50600f11ffd7f401fbe6b6c0ae6619`;
+
+    fetch(url, { method: "GET" })
+      .then((res) => {
+        return res.json();
+      })
+      .then((data) => {
+        let apiCityName = data.name;
+        let apiDes = data.weather[0].description;
+        let apiTemp = data.main.temp;
+        let apiIcon = data.weather[0].icon;
+        let apiPressure = data.main.pressure;
+        let apiWind = data.wind.speed;
+        let apiMinTemp = data.main.temp_min;
+        let apiMaxTemp = data.main.temp_max;
+
+        cityName.innerText = apiCityName;
+        temperature.innerHTML = `${apiTemp}&#176 C`;
+        minMaxTemp.innerHTML = `${apiMinTemp}&#176 C / ${apiMaxTemp}&#176 C`;
+        weatherIcon.setAttribute(
+          "src",
+          `http://openweathermap.org/img/wn/${apiIcon}@2x.png`
+        );
+        weatherDescription.innerText = apiDes;
+        pressureValue.innerText = `${apiPressure} mb`;
+        windSpeed.innerText = `${apiWind} m/s`;
+      });
+  }
+
+  function errorCallback(error) {
+    console.log(error);
+  }
+}
+
+
+window.addEventListener("load",WeatherUpdate);

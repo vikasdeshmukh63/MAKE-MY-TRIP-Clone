@@ -1113,3 +1113,94 @@ body {
   background-color: #0659f31d;
   cursor: pointer;
 }
+
+/* WEATHER  */
+.weather{
+  background-color: #008cff;
+  border-radius: 10px;
+  margin:30px auto 0 auto;
+  padding: 10px;
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.342);
+}
+.weather-1{
+display: flex;
+justify-content: center;
+align-items: flex-start;
+flex-direction: column;
+}
+
+.cityname{
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.current-date{
+  color:black;
+}
+
+.weather-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.temp{
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.minmax-temp{
+  color:black;
+}
+
+.weather-3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.temp-des{
+  font-size: 20px;
+  color: white;
+}
+
+.weather-4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pressure{
+  color: white;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.pre-value{
+  color:black;
+}
+
+.weather-5{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.windspeed{
+  color: white;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.wind-value{
+  color:black;
+}
